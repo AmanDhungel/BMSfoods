@@ -1,0 +1,1319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- 
+    - primary meta tags
+  -->
+    <title>BMS - Amazing & Delicious Pickle</title>
+    <meta name="title" content="BMS - Amazing & Delicious Pickles" />
+    <meta
+      name="description"
+      content="This is a Pickles company based on Nepal"
+    />
+
+    <!-- 
+    - favicon
+  -->
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- 
+    - preload images
+  -->
+    <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg" />
+  </head>
+
+  <body id="top">
+    <!-- 
+    - #PRELOADER
+  -->
+
+    <div class="preload" data-preaload>
+      <div class="circle"></div>
+      <p class="text">BMS</p>
+    </div>
+
+    <!-- 
+    - #TOP BAR
+  -->
+
+    <div class="topbar">
+      <div class="container">
+        <address class="topbar-item">
+          <div class="icon">
+            <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+          </div>
+
+          <span class="span"> Dhumbarahi, PipalBot </span>
+        </address>
+
+        <div class="separator"></div>
+
+        <div class="topbar-item item-2">
+          <div class="icon">
+            <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+          </div>
+
+          <span class="span">Order Taken Daily : 7.00 am to 7.00 pm</span>
+        </div>
+
+        <a href="tel:+11234567890" class="topbar-item link">
+          <div class="icon">
+            <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+          </div>
+
+          <span class="span">+977 9867806220</span>
+        </a>
+
+        <div class="separator"></div>
+
+        <a href="mailto:booking@restaurant.com" class="topbar-item link">
+          <div class="icon">
+            <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+          </div>
+
+          <span class="span">aman.most100@gmail.com</span>
+        </a>
+      </div>
+    </div>
+
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <img
+            src="./assets/images/BMS.png"
+            width="160"
+            height="50"
+            alt="Grilli - Home"
+          />
+        </a>
+
+        <nav class="navbar" data-navbar>
+          <button class="close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+          <a href="#" class="logo">
+            <img
+              src="./assets/images/logo.svg"
+              width="160"
+              height="50"
+              alt="Grilli - Home"
+            />
+          </a>
+
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="#home" class="navbar-link hover-underline active">
+                <div class="separator"></div>
+
+                <span class="span">Home</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#menu" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Menus</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#about" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">About Us</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Our Chefs</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="#" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Contact</span>
+              </a>
+            </li>
+          </ul>
+
+          <div class="text-center">
+            <p class="headline-1 navbar-title">Visit Us</p>
+
+            <address class="body-4">
+              Dhumbarahi <br />
+              PipalBot
+            </address>
+
+            <p class="body-4 navbar-text">Order is Taken: 7 am - 7pm</p>
+
+            <a href="mailto:aman.most100@gmail.com" class="body-4 sidebar-link"
+              >aman.most100@gmail.com</a
+            >
+
+            <div class="separator"></div>
+
+            <p class="contact-label">Booking Request</p>
+
+            <a
+              href="tel:9867806220"
+              class="body-1 contact-number hover-underline"
+            >
+              +977 9867806220
+            </a>
+          </div>
+        </nav>
+
+        <a href="#" class="btn btn-secondary">
+          <span class="text text-1">Order</span>
+
+          <span class="text text-2" aria-hidden="true">Order</span>
+        </a>
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+          <span class="line line-3"></span>
+        </button>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+
+    <main>
+      <article>
+        <!-- 
+        - #HERO
+      -->
+
+        <section class="hero text-center" aria-label="home" id="home">
+          <ul class="hero-slider" data-hero-slider>
+            <li class="slider-item active" data-hero-slider-item>
+              <div class="slider-bg">
+                <img
+                  src="https://vismaifood.com/storage/app/uploads/public/77e/ae7/f6e/thumb__700_0_0_0_auto.jpg"
+                  width="1880"
+                  height="950"
+                  alt=""
+                  class="img-cover"
+                />
+              </div>
+
+              <p class="label-2 section-subtitle slider-reveal">
+                Tradational & Hygine
+              </p>
+
+              <h1 class="display-1 hero-title slider-reveal">
+                For the love of <br />
+                delicious Pickles
+              </h1>
+
+              <p class="body-2 hero-text slider-reveal">
+                Chicken Pickle, Tastes Best
+              </p>
+
+              <a href="#" class="btn btn-primary slider-reveal">
+                <span class="text text-1">View Our Menu</span>
+
+                <span class="text text-2" aria-hidden="true"
+                  >View Our Menu</span
+                >
+              </a>
+            </li>
+
+            <li class="slider-item" data-hero-slider-item>
+              <div class="slider-bg">
+                <img
+                  src="https://www.southernliving.com/thmb/wE-hmetkqc3sP2qCPJg_Vcjwvlc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Southern-Living-113_Quick-Pickle-Cucumbers-and-Onion-3245-7740d045eee94eee98ac589cc864dfd5.jpg"
+                  width="1880"
+                  height="950"
+                  alt=""
+                  class="img-cover"
+                />
+              </div>
+
+              <p class="label-2 section-subtitle slider-reveal">
+                delightful experience
+              </p>
+
+              <h1 class="display-1 hero-title slider-reveal">
+                Flavors Inspired by <br />
+                the Seasons
+              </h1>
+
+              <p class="body-2 hero-text slider-reveal">
+                Cumber Pickle Makes you want to eat more.
+              </p>
+
+              <a href="#" class="btn btn-primary slider-reveal">
+                <span class="text text-1">View Our Menu</span>
+
+                <span class="text text-2" aria-hidden="true"
+                  >View Our Menu</span
+                >
+              </a>
+            </li>
+
+            <li class="slider-item" data-hero-slider-item>
+              <div class="slider-bg">
+                <img
+                  src="https://img-global.cpcdn.com/recipes/e94c1a97f25d23d5/680x482cq70/mixed-vegetable-pickle-recipe-main-photo.jpg"
+                  width="1880"
+                  height="950"
+                  alt=""
+                  class="img-cover"
+                />
+              </div>
+
+              <p class="label-2 section-subtitle slider-reveal">
+                amazing & delicious
+              </p>
+
+              <h1 class="display-1 hero-title slider-reveal">
+                Where every flavor <br />
+                tells a story
+              </h1>
+
+              <p class="body-2 hero-text slider-reveal">
+                Mixed pickle for one who need more spiceses in life
+              </p>
+
+              <a href="#" class="btn btn-primary slider-reveal">
+                <span class="text text-1">View Our Menu</span>
+
+                <span class="text text-2" aria-hidden="true"
+                  >View Our Menu</span
+                >
+              </a>
+            </li>
+          </ul>
+
+          <button
+            class="slider-btn prev"
+            aria-label="slide to previous"
+            data-prev-btn
+          >
+            <ion-icon name="chevron-back"></ion-icon>
+          </button>
+
+          <button
+            class="slider-btn next"
+            aria-label="slide to next"
+            data-next-btn
+          >
+            <ion-icon name="chevron-forward"></ion-icon>
+          </button>
+
+          <a href="#" class="hero-btn has-after">
+            <img
+              src="./assets/images/hero-icon.png"
+              width="48"
+              height="48"
+              alt="booking icon"
+            />
+
+            <span class="label-2 text-center span">Order Now</span>
+          </a>
+        </section>
+
+        <!-- 
+        - #SERVICE
+      -->
+
+        <section
+          class="section service bg-black-10 text-center"
+          aria-label="service"
+        >
+          <div class="container">
+            <p class="section-subtitle label-2">Flavors For Tradition</p>
+
+            <h2 class="headline-1 section-title">
+              Introducing BMS Foods: Elevating Pickled Perfection
+            </h2>
+
+            <p class="section-text">
+              Savor the fusion of tradition and innovation with BMS Foods, where
+              every jar of pickles embodies a symphony of taste and quality.
+            </p>
+
+            <ul class="grid-list">
+              <li>
+                <div class="service-card">
+                  <a href="#" class="has-before hover:shine">
+                    <figure
+                      class="card-banner img-holder"
+                      style="--width: 285; --height: 336"
+                    >
+                      <img
+                        src="https://www.tamarindnthyme.com/wp-content/uploads/2020/08/Indian-Mixed-Vegetable-Pickle5.jpg"
+                        width="285"
+                        height="336"
+                        loading="lazy"
+                        alt="Breakfast"
+                        class="img-cover"
+                      />
+                    </figure>
+                  </a>
+
+                  <div class="card-content">
+                    <h3 class="title-4 card-title">
+                      <a href="#">Veg pickles</a>
+                    </h3>
+
+                    <a href="#" class="btn-text hover-underline label-2"></a>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card">
+                  <a href="#" class="has-before hover:shine">
+                    <figure
+                      class="card-banner img-holder"
+                      style="--width: 285; --height: 336"
+                    >
+                      <img
+                        src="https://5.imimg.com/data5/FB/DJ/MY-53006615/non-veg-pickles-500x500.jpg"
+                        width="285"
+                        height="336"
+                        loading="lazy"
+                        alt="Appetizers"
+                        class="img-cover"
+                      />
+                    </figure>
+                  </a>
+
+                  <div class="card-content">
+                    <h3 class="title-4 card-title">
+                      <a href="#">Non-Veg Pickles</a>
+                    </h3>
+
+                    <a href="#" class="btn-text hover-underline label-2"
+                      >View Menu</a
+                    >
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="service-card">
+                  <a href="#" class="has-before hover:shine">
+                    <figure
+                      class="card-banner img-holder"
+                      style="--width: 285; --height: 336"
+                    >
+                      <img
+                        src="https://thulo.com/images/detailed/166/MOMO.jpg"
+                        width="285"
+                        height="336"
+                        loading="lazy"
+                        alt="Drinks"
+                        class="img-cover"
+                      />
+                    </figure>
+                  </a>
+
+                  <div class="card-content">
+                    <h3 class="title-4 card-title">
+                      <a href="#">Other Prodcuts</a>
+                    </h3>
+
+                    <a href="#" class="btn-text hover-underline label-2"></a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+            <img
+              src="./assets/images/shape-1.png"
+              width="246"
+              height="412"
+              loading="lazy"
+              alt="shape"
+              class="shape shape-1 move-anim"
+            />
+            <img
+              src="./assets/images/shape-2.png"
+              width="343"
+              height="345"
+              loading="lazy"
+              alt="shape"
+              class="shape shape-2 move-anim"
+            />
+          </div>
+        </section>
+
+        <!-- 
+        - #ABOUT
+      -->
+
+        <section
+          class="section about text-center"
+          aria-labelledby="about-label"
+          id="about"
+        >
+          <div class="container">
+            <div class="about-content">
+              <p class="label-2 section-subtitle" id="about-label">Our Story</p>
+
+              <h2 class="headline-1 section-title">BMS Foods</h2>
+
+              <p class="section-text">
+                BMS Foods was born from a timeless recipe, crafting pickles that
+                whispered secrets of generations past, while infusing them with
+                a modern twist. As the village's pickle whisperers, BMS Foods
+                turned humble cucumbers into tangy tales that danced on taste
+                buds, preserving not just flavors, but memories.
+              </p>
+
+              <div class="contact-label">Order Through Call</div>
+
+              <a
+                href="tel:+804001234567"
+                class="body-1 contact-number hover-underline"
+                >+977 9867806220</a
+              >
+
+              <a href="#" class="btn btn-primary">
+                <span class="text text-1">Read More</span>
+
+                <span class="text text-2" aria-hidden="true">Read More</span>
+              </a>
+            </div>
+
+            <figure class="about-banner">
+              <img
+                src="https://scontent.fktm20-1.fna.fbcdn.net/v/t39.30808-6/362269023_6552630008156796_4817581999292647746_n.jpg?_nc_cat=101&cb=99be929b-3346023f&ccb=1-7&_nc_sid=730e14&_nc_ohc=nD6TZNnLKYIAX8mMZDf&_nc_ht=scontent.fktm20-1.fna&oh=00_AfAfv-u2OGQFV_9RhK9g9jX6z71iIY7r5R2ijAHGCBZBog&oe=64CFC6E5"
+                width="570"
+                height="570"
+                loading="lazy"
+                alt="about banner"
+                class="w-100"
+                data-parallax-item
+                data-parallax-speed="1"
+              />
+
+              <div
+                class="abs-img abs-img-1 has-before"
+                data-parallax-item
+                data-parallax-speed="1.75"
+              >
+                <img
+                  src="https://nativeflavors.in/wp-content/uploads/2021/02/Image-59-scaled.jpeg"
+                  width="285"
+                  height="285"
+                  loading="lazy"
+                  alt=""
+                  class="w-100"
+                />
+              </div>
+
+              <div class="abs-img abs-img-2 has-before">
+                <img
+                  src="./assets/images/BMS.png"
+                  width="133"
+                  height="134"
+                  loading="lazy"
+                  alt=""
+                />
+              </div>
+            </figure>
+
+            <img
+              src="./assets/images/shape-3.png"
+              width="197"
+              height="194"
+              loading="lazy"
+              alt=""
+              class="shape"
+            />
+          </div>
+        </section>
+
+        <!-- 
+        - #SPECIAL DISH
+      -->
+
+        <section class="special-dish text-center" aria-labelledby="dish-label">
+          <div class="special-dish-banner">
+            <img
+              src="https://i.ytimg.com/vi/C2dCMXJ-0FY/maxresdefault.jpg"
+              width="940"
+              height="900"
+              loading="lazy"
+              alt="special dish"
+              class="img-cover"
+            />
+          </div>
+
+          <div class="special-dish-content bg-black-10">
+            <div class="container">
+              <img
+                src="https://i.ytimg.com/vi/C2dCMXJ-0FY/maxresdefault.jpg"
+                width="28"
+                height="41"
+                loading="lazy"
+                alt="badge"
+                class="abs-img"
+              />
+
+              <p class="section-subtitle label-2">Special Pickle</p>
+
+              <h2 class="headline-1 section-title">Chicken Pickle</h2>
+
+              <p class="section-text">
+                Imagine succulent pieces of tender chicken, marinated in a
+                symphony of spices, herbs, and secret family recipes, then
+                slow-cooked to perfection. Our Chicken Pickle at BMS Foods is a
+                gastronomic masterpiece that captures the essence of traditional
+                flavors and modern flair. Each bite tells a story of heritage
+                and innovation, making it the perfect companion to elevate your
+                meals and create unforgettable culinary moments.
+              </p>
+
+              <div class="wrapper">
+                <del class="del body-3">per btl</del>
+
+                <span class="span body-1">700रु</span>
+              </div>
+
+              <a href="#" class="btn btn-primary">
+                <span class="text text-1">View All Menu</span>
+
+                <span class="text text-2" aria-hidden="true"
+                  >View All Menu</span
+                >
+              </a>
+            </div>
+          </div>
+
+          <img
+            src="https://junifoods.com/wp-content/uploads/2023/07/B-Chicken-Pickle-Chicken-Pickle-kukhura-ko-achar-main-picture-in-jar-1024x693.png"
+            width="179"
+            height="359"
+            loading="lazy"
+            alt=""
+            class="shape shape-1"
+          />
+
+          <img
+            src="https://vismaifood.com/storage/app/uploads/public/77e/ae7/f6e/thumb__700_0_0_0_auto.jpg"
+            style="height: 400px"
+            width="351"
+            height="400"
+            loading="lazy"
+            alt=""
+            class="shape shape-2"
+          />
+        </section>
+
+        <!-- 
+        - #MENU
+      -->
+
+        <section class="section menu" aria-label="menu-label" id="menu">
+          <div class="container">
+            <p class="section-subtitle text-center label-2">
+              Special Selection
+            </p>
+
+            <h2 class="headline-1 section-title text-center">Pickle Menu</h2>
+
+            <ul class="grid-list">
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <img
+                      src="https://vismaifood.com/storage/app/uploads/public/77e/ae7/f6e/thumb__700_0_0_0_auto.jpg"
+                      style="width: 100px; height: 100px"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Greek Salad"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Chicken Pickle</a>
+                      </h3>
+
+                      <span class="badge label-1">Seasonal</span>
+
+                      <span class="span title-2">700रु</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      chicken, red chilli, musterd oil, timur, chhop.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <img
+                      src="https://rachlmansfield.com/wp-content/uploads/2022/05/IMG_6172-scaled.jpg"
+                      style="width: 100px; height: 100px"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Lasagne"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Cucumber pickle</a>
+                      </h3>
+
+                      <span class="span title-2">300रु</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      Vegetable, water, oil, chilli, venigar.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <img
+                      src="https://i0.wp.com/utsav360.com/wp-content/uploads/2019/08/Mula-Ko-Achar.jpg?fit=2448%2C2448&ssl=1"
+                      style="width: 100px; height: 100px"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Butternut Pumpkin"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Mulako achar</a>
+                      </h3>
+
+                      <span class="span title-2">250रु</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      Vegetable, oil, methi, salt, chilli, venigar.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <img
+                      src="https://thulo.com/images/detailed/166/MOMO.jpg"
+                      style="width: 100px; height: 100px"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Tokusen Wagyu"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Momo</a>
+                      </h3>
+
+                      <span class="badge label-1">New</span>
+
+                      <span class="span title-2">70रु</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      chicken, flour, salt, oil, marich.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <img
+                      src="https://www.thecoldwire.com/wp-content/uploads/2021/08/Chicken-jerky.jpg"
+                      style="width: 100px; height: 100px"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Olivas Rellenas"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Chicken Sukuti</a>
+                      </h3>
+
+                      <span class="span title-2">1200रु</span>
+                    </div>
+
+                    <p class="card-text label-1">Chicken, salt, spices, dry.</p>
+                  </div>
+                </div>
+              </li>
+
+              <li>
+                <div class="menu-card hover:card">
+                  <figure
+                    class="card-banner img-holder"
+                    style="--width: 100; --height: 100"
+                  >
+                    <img
+                      src="https://i0.wp.com/1.bp.blogspot.com/-Qi4Z1WctldE/Xkz1_PqfgPI/AAAAAAAAXAs/6uZ6Qb08Sx4HpSAM_sH8bxVMLs_1EFsgACNcBGAsYHQ/s1600/lapsi.jpg?ssl=1"
+                      style="width: 100px; height: 100px"
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                      alt="Opu Fish"
+                      class="img-cover"
+                    />
+                  </figure>
+
+                  <div>
+                    <div class="title-wrapper">
+                      <h3 class="title-3">
+                        <a href="#" class="card-title">Lapsiko achar</a>
+                      </h3>
+
+                      <span class="span title-2">500रु</span>
+                    </div>
+
+                    <p class="card-text label-1">
+                      Lapsi, Oil, Sugar, slat, chilli.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+
+            <p class="menu-text text-center">
+              daily from <span class="span">7:00 am</span> to
+              <span class="span">7:00 pm</span>
+            </p>
+
+            <a href="#" class="btn btn-primary">
+              <span class="text text-1">View All Menu</span>
+
+              <span class="text text-2" aria-hidden="true">View All Menu</span>
+            </a>
+
+            <img
+              src="./assets/images/shape-5.png"
+              width="921"
+              height="1036"
+              loading="lazy"
+              alt="shape"
+              class="shape shape-2 move-anim"
+            />
+            <img
+              src="./assets/images/shape-6.png"
+              width="343"
+              height="345"
+              loading="lazy"
+              alt="shape"
+              class="shape shape-3 move-anim"
+            />
+          </div>
+        </section>
+
+        <!-- 
+        - #TESTIMONIALS
+      -->
+
+        <section
+          class="section testi text-center has-bg-image"
+          style="background-image: url('./assets/images/testimonial-bg.jpg')"
+          aria-label="testimonials"
+        ></section>
+
+        <!-- 
+        - #RESERVATION
+      -->
+
+        <section class="reservation">
+          <div class="container">
+            <div class="form reservation-form bg-black-10">
+              <form action="" class="form-left">
+                <h2 class="headline-1 text-center">Online order</h2>
+
+                <p class="form-text text-center">
+                  Booking request
+                  <a href="tel:+88123123456" class="link">+977 9867806220</a>
+                  or fill out the order form
+                </p>
+
+                <div class="input-wrapper">
+                  <input
+                    type="text"
+                    name="name"
+                    placeholder="Your Name"
+                    autocomplete="off"
+                    class="input-field"
+                  />
+
+                  <input
+                    type="tel"
+                    name="phone"
+                    placeholder="Phone Number"
+                    autocomplete="off"
+                    class="input-field"
+                  />
+                </div>
+
+                <div class="input-wrapper">
+                  <div class="icon-wrapper">
+                    <ion-icon
+                      name="person-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
+
+                    <select name="person" class="input-field">
+                      <option value="1-person">1 bottle</option>
+                      <option value="2-person">2 bottle</option>
+                      <option value="3-person">3 bottle</option>
+                      <option value="4-person">4 bottle</option>
+                      <option value="5-person">5 bottle</option>
+                      <option value="6-person">6 bottle</option>
+                      <option value="7-person">7 bottle</option>
+                    </select>
+
+                    <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <div class="icon-wrapper">
+                    <ion-icon
+                      name="calendar-clear-outline"
+                      aria-hidden="true"
+                    ></ion-icon>
+
+                    <input
+                      type="date"
+                      name="reservation-date"
+                      class="input-field"
+                    />
+
+                    <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                  </div>
+
+                  <div class="icon-wrapper">
+                    <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+
+                    <select name="person" class="input-field">
+                      <option value="08:00am">07: 00 am</option>
+                      <option value="08:00am">08 : 00 am</option>
+                      <option value="09:00am">09 : 00 am</option>
+                      <option value="010:00am">10 : 00 am</option>
+                      <option value="011:00am">11 : 00 am</option>
+                      <option value="012:00am">12 : 00 am</option>
+                      <option value="01:00pm">01 : 00 pm</option>
+                      <option value="02:00pm">02 : 00 pm</option>
+                      <option value="03:00pm">03 : 00 pm</option>
+                      <option value="04:00pm">04 : 00 pm</option>
+                      <option value="05:00pm">05 : 00 pm</option>
+                      <option value="06:00pm">06 : 00 pm</option>
+                      <option value="07:00pm">07 : 00 pm</option>
+                    </select>
+
+                    <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
+                  </div>
+                </div>
+
+                <textarea
+                  name="message"
+                  placeholder="Message"
+                  autocomplete="off"
+                  class="input-field"
+                ></textarea>
+
+                <button type="submit" class="btn btn-secondary">
+                  <span class="text text-1">Order Now</span>
+
+                  <span class="text text-2" aria-hidden="true">Order Now</span>
+                </button>
+              </form>
+
+              <div
+                class="form-right text-center"
+                style="
+                  background-image: url('./assets/images/form-pattern.png');
+                "
+              >
+                <h2 class="headline-1 text-center">Contact Us</h2>
+
+                <p class="contact-label">Order Request</p>
+
+                <a
+                  href="tel:+88123123456"
+                  class="body-1 contact-number hover-underline"
+                  >+977 9867806220</a
+                >
+
+                <div class="separator"></div>
+
+                <p class="contact-label">Location</p>
+
+                <address class="body-4">
+                  BMS Foods, Dhumbaradhi <br />
+                  PipalBot
+                </address>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- 
+        - #FEATURES
+      -->
+
+        <section class="section features text-center" aria-label="features">
+          <div class="container">
+            <p class="section-subtitle label-2">Why Choose Us</p>
+
+            <h2 class="headline-1 section-title">Our Strength</h2>
+
+            <ul class="grid-list">
+              <li class="feature-item">
+                <div class="feature-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/features-icon-1.png"
+                      width="100"
+                      height="80"
+                      loading="lazy"
+                      alt="icon"
+                    />
+                  </div>
+
+                  <h3 class="title-2 card-title">Hygienic Food</h3>
+
+                  <p class="label-1 card-text">
+                    Hygien matters so this is there part that we focus Most.
+                  </p>
+                </div>
+              </li>
+
+              <li class="feature-item">
+                <div class="feature-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/features-icon-2.png"
+                      width="100"
+                      height="80"
+                      loading="lazy"
+                      alt="icon"
+                    />
+                  </div>
+
+                  <h3 class="title-2 card-title">Fresh Environment</h3>
+
+                  <p class="label-1 card-text">
+                    Fresh Environment for Hygenic Food.
+                  </p>
+                </div>
+              </li>
+
+              <li class="feature-item">
+                <div class="feature-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/features-icon-3.png"
+                      width="100"
+                      height="80"
+                      loading="lazy"
+                      alt="icon"
+                    />
+                  </div>
+
+                  <h3 class="title-2 card-title">Skilled Chefs</h3>
+
+                  <p class="label-1 card-text">
+                    Chefs are well known for their hygen and for their cooking
+                    ability to make you go aha!.
+                  </p>
+                </div>
+              </li>
+
+              <li class="feature-item">
+                <div class="feature-card">
+                  <div class="card-icon">
+                    <img
+                      src="./assets/images/features-icon-4.png"
+                      width="100"
+                      height="80"
+                      loading="lazy"
+                      alt="icon"
+                    />
+                  </div>
+
+                  <h3 class="title-2 card-title">Event & Party</h3>
+
+                  <p class="label-1 card-text">
+                    We take Orders for Events and party.
+                  </p>
+                </div>
+              </li>
+            </ul>
+
+            <img
+              src="./assets/images/shape-7.png"
+              width="208"
+              height="178"
+              loading="lazy"
+              alt="shape"
+              class="shape shape-1"
+            />
+
+            <img
+              src="./assets/images/shape-8.png"
+              width="120"
+              height="115"
+              loading="lazy"
+              alt="shape"
+              class="shape shape-2"
+            />
+          </div>
+        </section>
+
+        <!-- 
+        - #EVENT
+      --></article>
+    </main>
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer
+      class="footer section has-bg-image text-center"
+      style="background-image: url('./assets/images/footer-bg.jpg')"
+    >
+      <div class="container">
+        <div class="footer-top grid-list">
+          <div class="footer-brand has-before has-after">
+            <a href="#" class="logo">
+              <img
+                src="./assets/images/BMS.png"
+                width="160"
+                height="50"
+                loading="lazy"
+                alt="grilli home"
+              />
+            </a>
+
+            <address class="body-4">BMS Foods, Dhumbarahi, PipalBot</address>
+
+            <a href="mailto:booking@grilli.com" class="body-4 contact-link"
+              >aman.most100@gmail.com</a
+            >
+
+            <a href="tel:+88123123456" class="body-4 contact-link"
+              >Booking Request : +977 9867806220</a
+            >
+
+            <p class="body-4">Order Taken : 07:00 am - 07:00 pm</p>
+
+            <div class="wrapper">
+              <div class="separator"></div>
+              <div class="separator"></div>
+              <div class="separator"></div>
+            </div>
+
+            <p class="title-1">Get News & Offers</p>
+
+            <p class="label-1">
+              Subscribe us & Get <span class="span">25% Off.</span>
+            </p>
+
+            <form action="" class="input-wrapper">
+              <div class="icon-wrapper">
+                <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+                <input
+                  type="email"
+                  name="email_address"
+                  placeholder="Your email"
+                  autocomplete="off"
+                  class="input-field"
+                />
+              </div>
+
+              <button type="submit" class="btn btn-secondary">
+                <span class="text text-1">Subscribe</span>
+
+                <span class="text text-2" aria-hidden="true">Subscribe</span>
+              </button>
+            </form>
+          </div>
+
+          <ul class="footer-list">
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline">Home</a>
+            </li>
+
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline">Menus</a>
+            </li>
+
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline"
+                >About Us</a
+              >
+            </li>
+
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline"
+                >Our Chefs</a
+              >
+            </li>
+
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline"
+                >Contact</a
+              >
+            </li>
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline"
+                >Facebook</a
+              >
+            </li>
+
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline"
+                >Instagram</a
+              >
+            </li>
+
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline"
+                >Twitter</a
+              >
+            </li>
+
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline"
+                >Youtube</a
+              >
+            </li>
+
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline"
+                >Google Map</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-bottom">
+          <p class="copyright">
+            &copy; 2022 BMS Foods. All Rights Reserved | Crafted by
+            <a
+              href="https://github.com/codewithsadee"
+              target="_blank"
+              class="link"
+              >Aman DHungel</a
+            >
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- 
+    - #BACK TO TOP
+  -->
+
+    <a
+      href="#top"
+      class="back-top-btn active"
+      aria-label="back to top"
+      data-back-top-btn
+    >
+      <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+    </a>
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
